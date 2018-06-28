@@ -9,9 +9,11 @@ class Book
   end
 
   def author
+    @author
   end
 
   def page_count
+    @page_count
   end
 
   def genre
