@@ -10,4 +10,10 @@ class Book
 
   def author
   end
+
+  def page_count
+  end
+
+  def genre
+  end
 end
