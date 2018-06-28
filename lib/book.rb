@@ -8,17 +8,9 @@ class Book
     @title
   end
 
-  def author
-    @author
-  end
-
-  def page_count
-    @page_count
-  end
-
-  def genre
-    @genre
-  end
+  attr_accessor :author
+  attr_accessor :genre
+  attr_accessor :page_count
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
